@@ -4,221 +4,306 @@
     <meta charset="utf-8" />
     <title>design1</title>
     <meta name="author" content="Przemek Woźniak" />
-    <meta name="description" content="design1 Layout praca domowa" />
+    <meta name="description" content="praca domowa2 html i css" />
     <meta name="keywords" content="layout, design, serwis internetowy" />
+    <link rel="icon" type="image/png" href="images/icon1.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <div>
-      <div>
-        <image src="images\place-holder-logo 1.png" width="83px" height="42" />
-        <input type="search" placeholder="Job type or lacation..." />
-        <button><img src="images/Component 14.png" width="30px" height="30px" /></button>
-        <a href="#" target="_blank"><strong>Offers</strong></a>
-        <a href="#" target="_blank"><strong>FAQ</strong></a>
-        <a href="#" target="_blank"><strong>Terms</strong></a>
-        <a href="#" target="_blank"><strong>Privacy Policies</strong></a>
-
-        <button>Post a job</button>
-        <select>
-          <option>Sign in</option>
-        </select>
+    <div class="container" id="top">
+      <image id="logoipsum" src="images\place-holder-logo 1.png" />
+      <div id="search">
+        <input id="insearch" type="search" placeholder="Job type or lacation..." />
+        <button id="buttonsearch"><img id="lens" src="images/icon _ search.png" /></button>
+      </div>
+      <div id="links">
+        <a href="#" target="_blank">Offers</a>
+        <a href="#" target="_blank">FAQ</a>
+        <a href="#" target="_blank">Terms</a>
+        <a href="#" target="_blank">Privacy Policies</a>
+      </div>
+      <div id="postitem">
+        <button id="post">Post a job</button>
+        <div id="sign">
+          <span>Sign in</span>
+          <button id="buttonArrow"><img id="arrow" src="images/Group5544.png" /></button>
+        </div>
       </div>
     </div>
-
-    <hr />
-
-    <div>
-      <div>
-        <button>
-          <img src="images/noun-fullstack-4517026.png" width="30px" height="30px" />
+    <div id="line"></div>
+    <div class="container" id="dark">
+      <div id="leftDarkItem">
+        <div id="blueStar"></div>
+        <div id="greenStar"></div>
+        <div id="violetStar"></div>
+        <div id="pinkStar"></div>
+        <div id="orangeStar"></div>
+        <div id="yellowStar"></div>
+        <button class="buttonDark">
+          <img class="koperta" src="images/noun-fullstack-4517026.png" />
           <span>Frontend</span>
         </button>
-        <button>
-          <img src="images/noun-fullstack-4517026.png" width="30px" height="30px" />
+        <button class="buttonDark">
+          <img class="koperta" src="images/noun-fullstack-4517026.png" />
           <span>Architekt</span>
         </button>
-        <button>
-          <img src="images/noun-fullstack-4517026.png" width="30px" height="30px" />
+        <button class="buttonDark">
+          <img class="koperta" src="images/noun-fullstack-4517026.png" />
           <span>DevOps</span>
         </button>
-        <button>
-          <img src="images/noun-fullstack-4517026.png" width="30px" height="30px" />
+        <button class="buttonDark">
+          <img class="koperta" src="images/noun-fullstack-4517026.png" />
           <span>Fullstack</span>
         </button>
-        <button><img src="images/noun-fullstack-4517026.png" width="30px" height="30px" /> <span>Analityk</span></button>
-        <button>
-          <img src="images/noun-fullstack-4517026.png" width="30px" height="30px" />
+        <button class="buttonDark"><img class="koperta" src="images/noun-fullstack-4517026.png" /> <span>Analityk</span></button>
+        <button class="buttonDark">
+          <img class="koperta" src="images/noun-fullstack-4517026.png" />
           <span>Tester</span>
         </button>
-
-        <select type="button">
-          <option>+6</option>
-          <option>+5</option>
-          <option>+4</option>
-        </select>
-        <select type="button">
-          <option>Seniority</option>
-          <option>Juniority</option>
-          <option>Maturalis</option>
-        </select>
+        <div id="six">
+          <span>+ 6</span>
+          <button class="buttonArrowDark"><img id="arrow" src="images/Group 5543.png" /></button>
+        </div>
+      </div>
+      <div id="seniority">
+        <span>Seniority</span>
+        <button class="buttonArrowDark"><img id="arrow" src="images/Group 5543.png" /></button>
       </div>
     </div>
-
-    <div>
-      <div>
-        <button><img src="images/git-grafika.png" width="30px" height="30px" /></button>
-        <strong>Git</strong>
-        <button><img src="images/git-grafika.png" width="30px" height="30px" /></button>
-        <strong>Vue</strong>
-        <button><img src="images/grafika-anular.png" width="30px" height="30px" /></button>
-        <strong>Anglular</strong>
-        <button><img src="images/git-grafika.png" width="30px" height="30px" /></button>
-        <strong>JS</strong>
-        <button><img src="images/grafika-anular.png" width="30px" height="30px" /></button>
-        <strong>CSS</strong>
-        <button><img src="images/git-grafika.png" width="30px" height="30px" /></button>
-        <strong>HTML</strong>
-        <button><img src="images/grafika-anular.png" width="30px" height="30px" /></button>
-        <strong>Agile</strong>
-        <button><img src="images/grafika-anular.png" width="30px" height="30px" /></button>
-        <strong>Git</strong>
-        <select>
-          <option>+32</option>
-          <option>+33</option>
-          <option>+34</option>
-        </select>
-
-        <button><strong>100% Remote</strong></button>
-        <button><strong>Price range</strong></button>
+    <div class="container" id="icon">
+      <div id="leftIcon">
+        <button class="buttonIcon"><img class="iconImage" src="images/git-grafika.png" /></button>
+        <span>Git</span>
+        <button class="buttonIcon"><img class="iconImage" src="images/iconJS.png" /></button>
+        <span>Vue</span>
+        <button class="buttonIcon"><img class="iconImage" src="images/grafika-anular.png" /></button>
+        <span>Anglular</span>
+        <button class="buttonIcon"><img class="iconImage" src="images/git-grafika.png" /></button>
+        <span>JS</span>
+        <button class="buttonIcon"><img class="iconImage" src="images/iconJS.png" /></button>
+        <span>CSS</span>
+        <button class="buttonIcon"><img class="iconImage" src="images/git-grafika.png" /></button>
+        <span>HTML</span>
+        <button class="buttonIcon"><img class="iconImage" src="images/iconJS.png" /></button>
+        <span>Agile</span>
+        <button class="buttonIcon"><img class="iconImage" src="images/grafika-anular.png" /></button>
+        <span>Git</span>
+        <div id="thirtytree">
+          <span>+ 32</span>
+          <button id="buttonArrow32"><img id="arrow2" src="images/Group5544.png" /></button>
+        </div>
+      </div>
+      <div id="rightIcon">
+        <button id="remote"><span>100% Remote</span></button>
+        <button id="price"><span>Price range</span></button>
       </div>
     </div>
-
-    <div>
-      <div>
-        <button><img src="images/suwaki3.png" width="30px" height="30px" /></button>
+    <div class="container" id="filter">
+      <div id="leftFilters">
+        <button id="filtersButton"><img class="iconImage" src="images/suwaki3.png" width="30px" height="30px" /></button>
         <span>Filters</span>
-
+      </div>
+      <div id="rightFilters">
         <span>Sort by:</span>
-        <select>
-          <option>latest</option>
-          <option>inne</option>
-          <option>jeszcze inne</option>
-        </select>
-        <button><img src="images/Component 15.png" width="30px" height="30px" /></button>
-        <button><img src="images/suwaki3.png" width="30px" height="30px" /></button>
-        <button><img src="images/kwadraciki.png" width="30px" height="30px" /></button>
+        <div id="latest">
+          <span id="underLine">latest</span>
+          <button id="blank"><img id="arrow2" src="images/Group5544.png" /></button>
+        </div>
+        <button id="filtersButton"><img class="iconImage" src="images/suwaki3.png" /></button>
+        <button id="filtersButton"><img class="iconImage" src="images/kwadraciki.png" /></button>
       </div>
     </div>
-
-    <div>
-      <div>
-        <image src="images/Mask-group.png" width="70px" height="60px" />
-      </div>
-      <div>
-        <span>Remote Ruby on Rails Developer</span>
-        <image src="images/remote1.png" width="86px" height="20px" />
-        <span>Netguru S.A.</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <image src="images/vector2.png" width="10px" height="12px" />
-        <span>Poznań, Poland</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <span>Mid</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <image src="images/newnew.png" width="37px" height="18px" />
-      </div>
-      <div>
-        <span>9350 - 14000 PLN net $</span>
-        <image src="images/Vector3.png" width="15px" height="16px" />
-        <span>Ruby</span>
-        <span>Java Script</span>
-        <span>SQL</span>
-      </div>
-      <div>
-        <button>Quickly apply</button>
-      </div>
-    </div>
-
-    <div>
-      <div>
-        <image src="images/Mask-group.png" width="70px" height="60px" />
-      </div>
-      <div>
-        <span>Remote Ruby on Rails Developer</span>
-        <image src="images/remote1.png" width="86px" height="20px" />
-        <span>Netguru S.A.</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <image src="images/vector2.png" width="10px" height="12px" />
-        <span>Poznań, Poland</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <span>Mid</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <image src="images/newnew.png" width="37px" height="18px" />
-      </div>
-      <div>
-        <span>9350 - 14000 PLN net $</span>
-        <image src="images/Vector3.png" width="15px" height="16px" />
-        <span>Ruby</span>
-        <span>Java Script</span>
-        <span>SQL</span>
-      </div>
-      <div>
-        <button>Quickly apply</button>
+    <div id="scroll"></div>
+    <div class="neonBig">
+      <div id="violet" class="label"><img class="color" src="images/Frame 18.png" /></div>
+      <div class="offers">
+        <div id="netguru">
+          <image src="images/Mask-group.png" width="70px" height="60px" />
+        </div>
+        <div id="remote100">
+          <div id="remoteRuby">Remote Ruby on Rails Developer</div>
+          <image src="images/remote1.png" width="86px" height="20px" />
+          <div id="netGu">Netguru S.A.</div>
+          <div class="pion"></div>
+          <image src="images/vector2.png" width="10px" height="12px" />
+          <div id="poland">Poznań, Poland</div>
+          <div class="pion"></div>
+          <div id="mid">Mid</div>
+          <div class="pion"></div>
+          <image src="images/newnew.png" width="37px" height="18px" />
+        </div>
+        <div id="plny">
+          <div id="dolar">9 350 - 14 000 PLN net</div>
+          <div id="dolarBag"><image src="images/dolarsBag.png" width="14px" height="15px" /></div>
+          <image id="heart" src="images/Vector3.png" width="16px" height="14.5px" />
+          <div id="Ruby">Ruby</div>
+          <div id="javaScript">Java Script</div>
+          <div id="sql">SQL</div>
+        </div>
+        <div>
+          <button id="quickly">Quickly apply</button>
+        </div>
       </div>
     </div>
-
-    <div>
-      <div>
-        <image src="images/Mask-group.png" width="70px" height="60px" />
-      </div>
-      <div>
-        <span>Remote Ruby on Rails Developer</span>
-        <image src="images/remote1.png" width="86px" height="20px" />
-        <span>Netguru S.A.</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <image src="images/vector2.png" width="10px" height="12px" />
-        <span>Poznań, Poland</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <span>Mid</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <image src="images/newnew.png" width="37px" height="18px" />
-      </div>
-      <div>
-        <span>9350 - 14000 PLN net $</span>
-        <image src="images/Vector3.png" width="15px" height="16px" />
-        <span>Ruby</span>
-        <span>Java Script</span>
-        <span>SQL</span>
-      </div>
-      <div>
-        <button>Quickly apply</button>
+    <div class="neonBig">
+      <div id="orange" class="label"><img class="color" src="images/Frame 46.png" /></div>
+      <div class="offers">
+        <div id="netguru">
+          <image src="images/Mask-group.png" width="70px" height="60px" />
+        </div>
+        <div id="remote100">
+          <div id="remoteRuby">Remote Ruby on Rails Developer</div>
+          <image src="images/remote1.png" width="86px" height="20px" />
+          <div id="netGu">Netguru S.A.</div>
+          <div class="pion"></div>
+          <image src="images/vector2.png" width="10px" height="12px" />
+          <div id="poland">Warsaw, Poland</div>
+          <div class="pion"></div>
+          <div id="mid">Mid</div>
+          <div class="pion"></div>
+          <image src="images/newnew.png" width="37px" height="18px" />
+        </div>
+        <div id="plny">
+          <div id="dolar">9 350 - 14 000 PLN net</div>
+          <div id="dolarBag"><image src="images/dolarsBag.png" width="14px" height="15px" /></div>
+          <image id="heart" src="images/Vector3.png" width="16px" height="14.5px" />
+          <div id="Ruby">Ruby</div>
+          <div id="javaScript">Java Script</div>
+          <div id="sql">SQL</div>
+        </div>
+        <div>
+          <button id="quickly">Quickly apply</button>
+        </div>
       </div>
     </div>
-
-    <div>
-      <div>
-        <image src="images/Mask-group.png" width="70px" height="60px" />
+    <div class="neonBig">
+      <div id="yellow" class="label"><img class="color" src="images/Frame 5592.png" /></div>
+      <div class="offers">
+        <div id="netguru">
+          <image src="images/Mask-group.png" width="70px" height="60px" />
+        </div>
+        <div id="remote100">
+          <div id="remoteRuby">Remote Ruby on Rails Developer</div>
+          <image src="images/remote1.png" width="86px" height="20px" />
+          <div id="netGu">Netguru S.A.</div>
+          <div class="pion"></div>
+          <image src="images/vector2.png" width="10px" height="12px" />
+          <div id="poland">Chełm, Poland</div>
+          <div class="pion"></div>
+          <div id="mid">Mid</div>
+          <div class="pion"></div>
+          <div id="poland">2d ago</div>
+        </div>
+        <div id="plny">
+          <div id="dolar">9 350 - 14 000 PLN net</div>
+          <div id="dolarBag"><image src="images/dolarsBag.png" width="14px" height="15px" /></div>
+          <image id="heart" src="images/Vector3.png" width="16px" height="14.5px" />
+          <div id="Ruby">Ruby</div>
+          <div id="javaScript">Java Script</div>
+          <div id="sql">SQL</div>
+        </div>
+        <div>
+          <button id="quickly">Quickly apply</button>
+        </div>
       </div>
-      <div>
-        <span>Remote Ruby on Rails Developer</span>
-        <image src="images/remote1.png" width="86px" height="20px" />
-        <span>Netguru S.A.</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <image src="images/vector2.png" width="10px" height="12px" />
-        <span>Poznań, Poland</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <span>Mid</span>
-        <!-- <div> div na pionową kreseczkę </div> -->
-        <image src="images/newnew.png" width="37px" height="18px" />
+    </div>
+    <div class="neonBig">
+      <div id="green" class="label"><img class="color" src="images/Frame 54.png" /></div>
+      <div class="offers">
+        <div id="netguru">
+          <image src="images/Mask-group.png" width="70px" height="60px" />
+        </div>
+        <div id="remote100">
+          <div id="remoteRuby">Remote Ruby on Rails Developer</div>
+          <image src="images/remote1.png" width="86px" height="20px" />
+          <div id="netGu">Netguru S.A.</div>
+          <div class="pion"></div>
+          <image src="images/vector2.png" width="10px" height="12px" />
+          <div id="poland">Poznań, Poland</div>
+          <div class="pion"></div>
+          <div id="mid">Mid</div>
+          <div class="pion"></div>
+          <div id="poland">29.10.22</div>
+        </div>
+        <div id="plny">
+          <div id="dolar">9 350 - 14 000 PLN net</div>
+          <div id="dolarBag"><image src="images/dolarsBag.png" width="14px" height="15px" /></div>
+          <image id="heart" src="images/Vector3.png" width="16px" height="14.5px" />
+          <div id="Ruby">Ruby</div>
+          <div id="javaScript">Java Script</div>
+          <div id="sql">SQL</div>
+        </div>
+        <div>
+          <button id="quickly">Quickly apply</button>
+        </div>
       </div>
-      <div>
-        <span>9350 - 14000 PLN net $</span>
-        <image src="images/Vector3.png" width="15px" height="16px" />
-        <span>Ruby</span>
-        <span>Java Script</span>
-        <span>SQL</span>
+    </div>
+    <div class="neonBig">
+      <div id="violet" class="label"><img class="color" src="images/Frame 18.png" /></div>
+      <div class="offers">
+        <div id="netguru">
+          <image src="images/Mask-group.png" width="70px" height="60px" />
+        </div>
+        <div id="remote100">
+          <div id="remoteRuby">Remote Ruby on Rails Developer</div>
+          <image src="images/remote1.png" width="86px" height="20px" />
+          <div id="netGu">Netguru S.A.</div>
+          <div class="pion"></div>
+          <image src="images/vector2.png" width="10px" height="12px" />
+          <div id="poland">Poznań, Poland</div>
+          <div class="pion"></div>
+          <div id="mid">Mid</div>
+          <div class="pion"></div>
+          <image src="images/newnew.png" width="37px" height="18px" />
+        </div>
+        <div id="plny">
+          <div id="dolar">9 350 - 14 000 PLN net</div>
+          <div id="dolarBag"><image src="images/dolarsBag.png" width="14px" height="15px" /></div>
+          <image id="heart" src="images/Vector3.png" width="16px" height="14.5px" />
+          <div id="Ruby">Ruby</div>
+          <div id="javaScript">Java Script</div>
+          <div id="sql">SQL</div>
+        </div>
+        <div>
+          <button id="quickly">Quickly apply</button>
+        </div>
       </div>
-      <div>
-        <button>Quickly apply</button>
+    </div>
+    <div class="neonBig">
+      <div id="orange" class="label"><img class="color" src="images/Frame 46.png" /></div>
+      <div class="offers">
+        <div id="netguru">
+          <image src="images/Mask-group.png" width="70px" height="60px" />
+        </div>
+        <div id="remote100">
+          <div id="remoteRuby">Remote Ruby on Rails Developer</div>
+          <image src="images/remote1.png" width="86px" height="20px" />
+          <div id="netGu">Netguru S.A.</div>
+          <div class="pion"></div>
+          <image src="images/vector2.png" width="10px" height="12px" />
+          <div id="poland">Poznań, Poland</div>
+          <div class="pion"></div>
+          <div id="mid">Mid</div>
+          <div class="pion"></div>
+          <image src="images/newnew.png" width="37px" height="18px" />
+        </div>
+        <div id="plny">
+          <div id="dolar">9 350 - 14 000 PLN net</div>
+          <div id="dolarBag"><image src="images/dolarsBag.png" width="14px" height="15px" /></div>
+          <image id="heart" src="images/Vector3.png" width="16px" height="14.5px" />
+          <div id="Ruby">Ruby</div>
+          <div id="javaScript">Java Script</div>
+          <div id="sql">SQL</div>
+        </div>
+        <div>
+          <button id="quickly">Quickly apply</button>
+        </div>
       </div>
     </div>
   </body>
